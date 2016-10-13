@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-Name: Vehicle Derby Bundle
+Bundle-ManifestVersion: 2
+Bundle-Description: APRESS
+Bundle-SymbolicName: com.apress.prodmserver.vehicle.infrastructure.derby
+Import-Bundle: com.springsource.org.apache.commons.dbcp;version="[1.2.2.osgi,1.2.2.osgi]",
+ com.springsource.org.apache.derby.client;version="[10.4.1000003.648739,10.4.1000003.648739]";import-scope:=application
+Import-Package: javax.sql

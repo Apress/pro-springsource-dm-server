@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-Name: Service Bundle
+Bundle-ManifestVersion: 2
+Bundle-Description: APRESS
+Bundle-SymbolicName: com.apress.prodmserver.city.service
+Export-Package: com.apress.prodmserver.city.service
+Import-Library: org.springframework.spring;version="[3.0.0.CI-282,3.0.0.CI-282]"
+

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Application-Name: Vehicle
+Application-Description: APRESS
+Application-Version: 1.0.0
+Application-SymbolicName: com.apress.prodmserver.vehicle
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-Name: Vehicle Service Bundle
+Bundle-ManifestVersion: 2
+Bundle-Description: APRESS
+Bundle-SymbolicName: com.apress.prodmserver.vehicle.service
+Import-Package: com.apress.prodmserver.vehicle.domain,
+ com.apress.prodmserver.vehicle.repository
+Export-Package: com.apress.prodmserver.vehicle.service
+Import-Library: org.springframework.spring;version="[2.9.9,3.0.1]"

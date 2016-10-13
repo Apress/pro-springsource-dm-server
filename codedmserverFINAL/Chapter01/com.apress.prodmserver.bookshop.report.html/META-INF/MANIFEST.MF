@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Html Plug-in
+Bundle-SymbolicName: com.apress.prodmserver.bookshop.report.html
+Bundle-Version: 1.0.0
+Bundle-Activator: com.apress.prodmserver.bookshop.report.html.Activator
+Bundle-Vendor: APRESS
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Import-Package: com.apress.prodmserver.bookshop.report,
+ org.osgi.framework;version="1.3.0"

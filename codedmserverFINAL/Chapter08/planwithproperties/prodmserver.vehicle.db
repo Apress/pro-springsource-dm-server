@@ -1,0 +1,4 @@
+jdbc.url=jdbc:derby://localhost:1527/vehicle;create=true
+jdbc.user=app
+jdbc.password=app
+jdbc.driverClassName=org.apache.derby.jdbc.ClientDriver

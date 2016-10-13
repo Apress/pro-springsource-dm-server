@@ -1,0 +1,19 @@
+<beans:beans xmlns="http://www.springframework.org/schema/osgi"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:beans="http://www.springframework.org/schema/beans"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+        http://www.springframework.org/schema/osgi
+        http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+    <reference id="rateCalculator"
+        interface="com.apress.prodmserver.bank.rate.RateCalculator"
+        cardinality="0..1" timeout="60000" />
+
+    <service ref="interestCalculator"
+        interface="com.apress.prodmserver.bank.interest.InterestCalculator">
+        <service-properties>
+            <beans:entry key="strategy" value="simple" />
+        </service-properties>
+    </service>
+</beans:beans>

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-Name: Vehicle Jpa Bundle
+Bundle-ManifestVersion: 2
+Bundle-Description: APRESS
+Bundle-SymbolicName: com.apress.prodmserver.vehicle.repository.jpa
+Import-Package: com.apress.prodmserver.vehicle.domain,
+ com.apress.prodmserver.vehicle.repository,
+ javax.sql
+Import-Bundle: com.springsource.org.eclipse.persistence;version="[1.0.0,1.0.0]";import-scope:=application,
+ com.springsource.javax.persistence;version="[1.0.0,1.0.0]",
+ com.springsource.org.aspectj.weaver;version="[1.6.5.RELEASE,1.6.5.RELEASE]"
+Import-Library: org.springframework.spring;version="[2.9.9,3.0.1]"

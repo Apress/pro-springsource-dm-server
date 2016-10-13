@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-Name: Vehicle Web Bundle
+Bundle-ManifestVersion: 2
+Bundle-Description: APRESS
+Bundle-SymbolicName: com.apress.prodmserver.vehicle.web
+Web-ContextPath: vehicle
+Import-Bundle: com.springsource.org.apache.taglibs.standard;version="[1.1.2,1.1.2]"
+Import-Library: org.springframework.spring;version="[2.9.9,3.0.1]"
+Import-Package: com.apress.prodmserver.vehicle.domain,
+ com.apress.prodmserver.vehicle.service,
+ javax.servlet.jsp.jstl.core;version="[1.1.2,1.1.2]",
+ com.springsource.server.web.dm;version="[2.0.0,3.0.0)"
